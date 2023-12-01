@@ -1,0 +1,124 @@
+# 1 "../platform/platform.F90"
+!***********************************************************************
+!*                   GNU Lesser General Public License
+!*
+!* This file is part of the GFDL Flexible Modeling System (FMS).
+!*
+!* FMS is free software: you can redistribute it and/or modify it under
+!* the terms of the GNU Lesser General Public License as published by
+!* the Free Software Foundation, either version 3 of the License, or (at
+!* your option) any later version.
+!*
+!* FMS is distributed in the hope that it will be useful, but WITHOUT
+!* ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+!* FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+!* for more details.
+!*
+!* You should have received a copy of the GNU Lesser General Public
+!* License along with FMS.  If not, see <http://www.gnu.org/licenses/>.
+!***********************************************************************
+
+module platform_mod
+!platform-dependent settings
+# 1 "../include/fms_platform.h" 1 
+! -*-f90-*-*
+!***********************************************************************
+!*                   GNU Lesser General Public License
+!*
+!* This file is part of the GFDL Flexible Modeling System (FMS).
+!*
+!* FMS is free software: you can redistribute it and/or modify it under
+!* the terms of the GNU Lesser General Public License as published by
+!* the Free Software Foundation, either version 3 of the License, or (at
+!* your option) any later version.
+!*
+!* FMS is distributed in the hope that it will be useful, but WITHOUT
+!* ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+!* FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+!* for more details.
+!*
+!* You should have received a copy of the GNU Lesser General Public
+!* License along with FMS.  If not, see <http://www.gnu.org/licenses/>.
+!***********************************************************************
+
+
+
+
+
+!Set type kinds.
+# 37
+
+!These values are not necessarily portable.
+
+
+
+
+
+
+
+!DEC$ MESSAGE:'Using 8-byte addressing'
+
+
+
+!Control "pure" functions.
+# 54
+
+
+!DEC$ MESSAGE:'Using pure routines.'
+
+
+
+!Control array members of derived types.
+# 66
+
+
+
+
+!DEC$ MESSAGE:'Using allocatable derived type array members.'
+
+
+
+!Control use of cray pointers.
+# 78
+
+
+!DEC$ MESSAGE:'Using cray pointers.'
+
+
+
+!Control size of integers that will hold address values.
+!Appears for legacy reasons, but seems rather dangerous.
+# 89
+
+
+
+!If you do not want to use 64-bit integers.
+# 95
+
+
+
+!If you do not want to use 32-bit floats.
+# 106
+
+
+
+!If you want to use quad-precision.
+! The NO_QUAD_PRECISION macro will be deprecated and removed at some future time.
+! Model code will rely solely upon the ENABLE_QUAD_PRECISION macro thereafer.
+# 114
+
+
+
+
+
+
+
+
+# 23 "../platform/platform.F90" 2 
+  public
+  integer, parameter :: r8_kind=8, r4_kind=4, &
+                        c8_kind=8, c4_kind=4, &
+                        l8_kind=8, l4_kind=4, &
+                        i8_kind=8, i4_kind=4, i2_kind=2
+!could additionally define things like OS, compiler...: useful?
+end module platform_mod

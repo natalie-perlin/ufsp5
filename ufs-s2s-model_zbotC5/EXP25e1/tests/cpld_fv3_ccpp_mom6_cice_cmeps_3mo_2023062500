@@ -1,0 +1,97 @@
+#
+#  CPLD_FV3_CCPP_MOM6_CICE_CMEPS_2D_ATM_FLUX test
+#
+
+export TEST_DESCR="Fully coupled FV3-CCPP-MOM6-CICE-CMEPS system - 3moP1_warm"
+export_3mo_run
+export_fv3
+export_cpl
+
+export SYEAR="2023"
+export SMONTH="06"
+export SDAY="25"
+export SHOUR="00"
+
+export DAYS="37"
+export FHMAX="888"
+export FDIAG="24"
+export WLCLK="900"
+
+export TASKS=504
+export TPN=40
+export INPES=4
+export JNPES=8
+export THRD=1
+export WRTTASK_PER_GROUP=24
+
+export med_petlist_bounds="0 191"
+export atm_petlist_bounds="0 215"
+export ocn_petlist_bounds="216 455"
+export ice_petlist_bounds="456 503"
+
+export DT_ATMOS="300"
+
+#export CNTL_DIR="RT-Baselines_2d_warm_ccpp_cmeps"
+#export CNTLMED_DIR="RT-Baselines_2d_warm_ccpp_cmeps/RESTART"
+
+#export_fv3
+#export_cpl
+
+#export DAYS="37"="92"
+#export FHMAX="888"="2208"
+#export FDIAG="24"
+#export WLCLK="900"=959
+
+# set component and coupling timesteps
+export DT_CICE=${DT_ATMOS}
+export CPL_SLOW=${DT_THERM_MOM6}
+export CPL_FAST=${DT_ATMOS}
+
+# write a CICE restart at DAYS
+export DUMPFREQ_N=${DAYS}
+export DUMPFREQ="d"
+
+# CMEPS controls intervals in ALLCOMP
+export FV3_RESTART_INTERVAL=${FHMAX}
+
+# restart test: required for restart repro
+export MOM6_REPRO_LA='False'
+export MOM6_THERMO_SPAN='False'
+
+# nems.configure
+export NEMS_CONFIGURE="nems.configure.medcmeps_atm_ocn_ice.IN"
+export coupling_interval_slow_sec=${CPL_SLOW}
+export coupling_interval_fast_sec=${CPL_FAST}
+
+#export FV3_RUN=cpld_fv3_mom6_cice_atm_flux_run.IN
+#export INPUT_NML=input.mom6_ccpp.nml.IN
+
+#export SUITE_NAME="FV3_GFS_2017_coupled"
+#export MED_restart_data='MEDIATOR_ccpp_cmeps_2023062500'='MEDIATOR_ccpp_cmeps'
+
+export FV3_RUN=cpld_fv3_mom6_cice_bmark_rt_run.IN
+#export FV3_RUN=cpld_fv3_mom6_cice_bmark_45d_run.IN
+export INPUT_NML=input.benchmark_ccpp.nml.IN
+
+export FIELD_TABLE="field_table.gfdlmp"
+export SUITE_NAME="FV3_GFS_v15p2_coupled"
+#export MED_restart_data='MEDIATOR_ccpp_cmeps_2023062500'='MEDIATOR_bmrt_ccpp_cmeps'
+#export MED_restart_data='MEDIATOR_ccpp_cmeps_2023062500'='MEDIATOR_ccpp_cmeps'
+export MED_restart_data='MEDIATOR_ccpp_cmeps_2023062500'
+
+export OZ_PHYS_NEW=".T."
+
+export CPLWAV='.F.'
+export CPLWAV2ATM='.F.'
+
+export RUNID="cpcice"
+#export MOM6_RESTART_SETTING="r"
+
+
+export OUTPUT_GRID="'gaussian_grid'"
+export OUTPUT_FILE="'nemsio'"
+export OUTPUT_HISTORY=.true.
+export WRITE_DOPOST=.true.
+export WRITE_NEMSIOFLIP=.true.
+export WRITE_FSYNCFLAG=.true.
+

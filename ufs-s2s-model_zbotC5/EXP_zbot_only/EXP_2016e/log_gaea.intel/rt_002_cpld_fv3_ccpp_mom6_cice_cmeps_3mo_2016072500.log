@@ -1,0 +1,7 @@
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-cice/
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-cice/
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_cice/fcst_2016e/cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2016072500
+Checking test 002 cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2016072500 results ....
+Test 002 cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2016072500 PASS
+

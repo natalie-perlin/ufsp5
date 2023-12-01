@@ -1,0 +1,23 @@
+ice_comp_nuopc.o ice_comp_nuopc.d : ice_comp_nuopc.F90
+ice_comp_nuopc.o : ice_constants.o
+ice_comp_nuopc.o : ice_shr_methods.o
+ice_comp_nuopc.o : ice_import_export.o
+ice_comp_nuopc.o : ice_domain_size.o
+ice_comp_nuopc.o : ice_domain.o
+ice_comp_nuopc.o : ice_blocks.o
+ice_comp_nuopc.o : ice_distribution.o
+ice_comp_nuopc.o : ice_grid.o
+ice_comp_nuopc.o : ice_communicate.o
+ice_comp_nuopc.o : ice_calendar.o
+ice_comp_nuopc.o : ice_kinds_mod.o
+ice_comp_nuopc.o : ice_scam.o
+ice_comp_nuopc.o : ice_fileunits.o
+ice_comp_nuopc.o : ice_restart_shared.o
+ice_comp_nuopc.o : ice_history.o
+ice_comp_nuopc.o : CICE_InitMod.o
+ice_comp_nuopc.o : CICE_RunMod.o
+ice_comp_nuopc.o : ice_exit.o
+ice_comp_nuopc.o : icepack_intfc.o
+ice_comp_nuopc.o : cice_wrapper_mod.o
+ice_comp_nuopc.o : ice_timers.o
+ice_comp_nuopc.o : ice_prescribed_mod.o

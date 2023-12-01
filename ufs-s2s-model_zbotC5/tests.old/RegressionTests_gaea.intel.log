@@ -1,0 +1,24 @@
+Tue Apr  6 16:02:26 EDT 2021
+Start Regression test
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907/RT-Baselines_cold_ccpp_cmeps_2014082700
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907/MEDIATOR_ccpp_cmeps_2014082700
+working dir  = /lustre/f2/scratch/JieShun.Zhu/S2S_RT/fcst_201408/cpld_fv3_ccpp_mom6_cice_cmeps_cold_2014082700
+Checking test 001 cpld_fv3_ccpp_mom6_cice_cmeps_cold_2014082700 results ....
+ Comparing ufs.s2s.cold.cpl.r.2014-08-27-03600.nc ............MISSING baseline
+ Moving ufs.s2s.cold.cpl.r.2014-08-27-03600.nc .....Test 001 cpld_fv3_ccpp_mom6_cice_cmeps_cold_2014082700 FAIL
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907/
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907/
+working dir  = /lustre/f2/scratch/JieShun.Zhu/S2S_RT/fcst_201408/cpld_fv3_ccpp_mom6_cice_cmeps_45d_2014082700
+Checking test 002 cpld_fv3_ccpp_mom6_cice_cmeps_45d_2014082700 results ....
+Test 002 cpld_fv3_ccpp_mom6_cice_cmeps_45d_2014082700 PASS
+
+FAILED TESTS: 
+Test cpld_fv3_ccpp_mom6_cice_cmeps_cold_2014082700 failed 
+
+REGRESSION TEST FAILED
+Wed Apr  7 08:32:15 EDT 2021
+Elapsed time: 16h:29m:52s. Have a nice day!

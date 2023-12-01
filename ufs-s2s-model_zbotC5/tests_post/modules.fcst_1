@@ -1,0 +1,73 @@
+#%Module1.0######################################################################
+##
+##    NEMS FV3 Prerequisites: Hera/Intel
+
+proc ModulesHelp {} {
+  puts stderr "\tcit - loads modules required for building and running FV3 under NEMS on Hera/Intel"
+}
+
+module-whatis "loads NEMS FV3 prerequisites for Gaea/Intel"
+
+##
+## load contrib environment
+## load slurm utils (arbitrary.pl  layout.pl)
+##
+
+##
+## load programming environment
+## this typically includes compiler, MPI and job scheduler
+##
+module load intel
+
+##
+## NCEP libraries
+##
+module use /lustre/f2/pdata/ncep_shared/NCEPLIBS7/lib/modulefiles
+module load netcdfp/4.7.4
+module load bacio-intel-sandybridge/2.0.2
+module load crtm-intel-sandybridge/2.3.0
+module load g2-intel-sandybridge/3.1.0
+module load g2tmpl-intel-sandybridge/1.5.0
+module load ip-intel/3.0.0
+module load nemsio-intel-sandybridge/2.2.4
+module load sp-intel-sandybridge/2.0.2
+module load w3emc-intel-sandybridge/2.3.0
+module load w3nco-intel-sandybridge/2.0.6
+
+module load gfsio-intel-sandybridge/1.1.0
+module load sfcio-intel-sandybridge/1.0.0
+module load sigio-intel-sandybridge/2.1.0
+module load post-intel-sandybridge/8.0.5
+
+setenv POST_INC $NCEPLIBS/gfs_post.fd/v8.0.5/intel/include/ncep_post_4
+setenv POST_SRC $NCEPLIBS/gfs_post.fd/v8.0.5/src
+setenv POST_LIB $NCEPLIBS/gfs_post.fd/v8.0.5/intel/libncep_post_4.a
+
+##
+## load cmake
+##
+module use /ncrc/sw/gaea-cle7/modulefiles/linux-sles15-x86_64
+module load globus/default
+module load globus-toolkit/6.0.17
+module load cmake/3.17.0
+setenv         HDF5_DIR     /lustre/f2/pdata/ncep_shared/NCEPLIBS7/lib/netcdfp
+setenv         HDF5_ROOT    /lustre/f2/pdata/ncep_shared/NCEPLIBS7/lib/netcdfp
+setenv         HDF5     /lustre/f2/pdata/ncep_shared/NCEPLIBS7/lib/netcdfp
+prepend-path    LD_LIBRARY_PATH /lustre/f2/pdata/ncep_shared/NCEPLIBS7/lib/netcdfp/lib
+setenv         NETCDF_DIR     /lustre/f2/pdata/ncep_shared/NCEPLIBS7/lib/netcdfp
+setenv         NetCDF_ROOT     /lustre/f2/pdata/ncep_shared/NCEPLIBS7/lib/netcdfp
+setenv         NetCDF_PATH     /lustre/f2/pdata/ncep_shared/NCEPLIBS7/lib/netcdfp
+setenv         NetCDF_INCLUDE_DIRS     /lustre/f2/pdata/ncep_shared/NCEPLIBS7/lib/netcdfp/include
+setenv         NetCDF_VERSION    4.7.4
+setenv         NetCDF_PARALLEL    F
+setenv         NetCDF     /lustre/f2/pdata/ncep_shared/NCEPLIBS7/lib/netcdfp
+setenv         NETCDF4    /lustre/f2/pdata/ncep_shared/NCEPLIBS7/lib/netcdfp
+
+setenv ESMF_NETCDF split
+setenv ESMF_NETCDF_INCLUDE /lustre/f2/pdata/ncep_shared/NCEPLIBS7/lib/netcdfp/include
+setenv ESMF_NETCDF_LIBPATH/lustre/f2/pdata/ncep_shared/NCEPLIBS7/lib/netcdfp/lib
+
+setenv CMAKE_C_COMPILER cc
+setenv CMAKE_CXX_COMPILER CC
+setenv CMAKE_Fortran_COMPILER ftn
+setenv CMAKE_Platform gaea.intel

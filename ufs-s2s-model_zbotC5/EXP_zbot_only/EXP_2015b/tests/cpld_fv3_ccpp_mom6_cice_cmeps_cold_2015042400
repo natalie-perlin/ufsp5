@@ -1,0 +1,58 @@
+#
+#  CPLD_FV3_CCPP_MOM6_CICE_CMEPS_COLD_ATM_FLUX test
+#
+
+export TEST_DESCR="Fully coupled FV3-CCPP-MOM6-CICE-CMEPS system - cold start"
+
+#export CNTL_DIR='RT-Baselines_cold_ccpp_cmeps_2015042400'="RT-Baselines_cold_ccpp_cmeps"
+#export CNTLMED_DIR='MEDIATOR_ccpp_cmeps_2015042400'="MEDIATOR_ccpp_cmeps"
+
+#export LIST_FILES="ufs.s2s.cold.cpl.r.2015-04-24-03600.nc"="phyf001.tile1.nc \
+export CNTL_DIR='RT-Baselines_cold_ccpp_cmeps_2015042400'
+export CNTLMED_DIR='MEDIATOR_ccpp_cmeps_2015042400'
+
+export LIST_FILES="ufs.s2s.cold.cpl.r.2015-04-24-03600.nc"
+
+export_fv3
+export_cpl
+
+export SYEAR="2015"
+export SMONTH="04"
+export SDAY="24"
+export SHOUR="00"
+
+export DAYS="0.041666666"
+export FHMAX="1" # Note this needs to be at least 2x CPL_SLOW
+export NFHMAX_HF="12"
+export NFHOUT_HF="1"
+
+export DT_ATMOS="600"
+
+# set component and coupling timesteps
+export DT_CICE=${DT_ATMOS}
+export CPL_SLOW=${DT_THERM_MOM6}
+export CPL_FAST=${DT_ATMOS}
+
+# write a CICE restart at FHMAX
+export DUMPFREQ_N=${FHMAX}
+export DUMPFREQ="h"
+
+# nems.configure
+export NEMS_CONFIGURE="nems.configure.medcoldcmeps_atm_ocn_ice.IN"
+export coupling_interval_slow_sec=${CPL_SLOW}
+export coupling_interval_fast_sec=${CPL_FAST}
+
+#export FV3_RUN=cpld_fv3_mom6_cice_atm_flux_run.IN
+#export INPUT_NML=input.mom6_ccpp.nml.IN
+
+#export SUITE_NAME="FV3_GFS_2017_coupled"
+
+#export FV3_RUN=cpld_fv3_mom6_cice_bmark_rt_run.IN
+export FV3_RUN=cpld_fv3_mom6_cice_bmark_45d_run.IN
+export INPUT_NML=input.benchmark_ccpp.nml.IN
+
+export FIELD_TABLE="field_table.gfdlmp"
+export SUITE_NAME="FV3_GFS_v15p2_coupled"
+
+export OZ_PHYS_NEW=".T."
+

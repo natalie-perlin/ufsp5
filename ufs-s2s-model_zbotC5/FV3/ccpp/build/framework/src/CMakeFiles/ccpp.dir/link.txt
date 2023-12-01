@@ -1,0 +1,2 @@
+/usr/bin/ar qc libccpp.a  CMakeFiles/ccpp.dir/ccpp_types.F90.o CMakeFiles/ccpp.dir/ccpp_api.F90.o
+/usr/bin/ranlib libccpp.a

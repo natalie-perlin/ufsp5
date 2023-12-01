@@ -1,0 +1,7 @@
+# ESMF self-describing build dependency makefile fragment
+# src location: wd
+
+ESMF_DEP_FRONT     = mom_cap_mod
+ESMF_DEP_INCPATH   = /lustre/f2/dev/ncep/JieShun.Zhu/ufsp5/ufs-s2s-model_zbot/MOM6-interface/MOM6_INSTALL
+ESMF_DEP_CMPL_OBJS = 
+ESMF_DEP_LINK_OBJS = /lustre/f2/dev/ncep/JieShun.Zhu/ufsp5/ufs-s2s-model_zbot/MOM6-interface/MOM6_INSTALL/libmom.a /lustre/f2/dev/ncep/JieShun.Zhu/ufsp5/ufs-s2s-model_zbot/MOM6-interface/MOM6_INSTALL/lib_ocean.a

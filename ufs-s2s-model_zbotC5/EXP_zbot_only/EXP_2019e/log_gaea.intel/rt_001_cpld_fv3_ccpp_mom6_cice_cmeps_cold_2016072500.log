@@ -1,0 +1,8 @@
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-cice/RT-Baselines_cold_ccpp_cmeps_2016072500
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-cice/MEDIATOR_ccpp_cmeps_2016072500
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_cice/fcst_2016e/cpld_fv3_ccpp_mom6_cice_cmeps_cold_2016072500
+Checking test 001 cpld_fv3_ccpp_mom6_cice_cmeps_cold_2016072500 results ....
+ Comparing ufs.s2s.cold.cpl.r.2016-07-25-03600.nc ............MISSING baseline
+ Moving ufs.s2s.cold.cpl.r.2016-07-25-03600.nc .....Test 001 cpld_fv3_ccpp_mom6_cice_cmeps_cold_2016072500 FAIL
+

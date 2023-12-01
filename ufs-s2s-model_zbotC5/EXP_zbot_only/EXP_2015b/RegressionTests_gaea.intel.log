@@ -1,0 +1,213 @@
+Thu Jul 15 10:59:14 EDT 2021
+Start Regression test
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_zbot/fcst_2015b/cpld_fv3_ccpp_mom6_cice_cmeps_3moR1_2015042300
+Checking test 001 cpld_fv3_ccpp_mom6_cice_cmeps_3moR1_2015042300 results ....
+Test 001 cpld_fv3_ccpp_mom6_cice_cmeps_3moR1_2015042300 PASS
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_zbot/fcst_2015b/cpld_fv3_ccpp_mom6_cice_cmeps_3moR2_2015042300
+Checking test 001 cpld_fv3_ccpp_mom6_cice_cmeps_3moR2_2015042300 results ....
+Test 001 cpld_fv3_ccpp_mom6_cice_cmeps_3moR2_2015042300 PASS
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_zbot/fcst_2015b/cpld_fv3_ccpp_mom6_cice_cmeps_3moR2_2015042400
+Checking test 001 cpld_fv3_ccpp_mom6_cice_cmeps_3moR2_2015042400 results ....
+Test 001 cpld_fv3_ccpp_mom6_cice_cmeps_3moR2_2015042400 PASS
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/RT-Baselines_cold_ccpp_cmeps_2015042100
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/MEDIATOR_ccpp_cmeps_2015042100
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_zbot/fcst_2015b/cpld_fv3_ccpp_mom6_cice_cmeps_cold_2015042100
+Checking test 001 cpld_fv3_ccpp_mom6_cice_cmeps_cold_2015042100 results ....
+ Comparing ufs.s2s.cold.cpl.r.2015-04-21-03600.nc ............MISSING baseline
+ Moving ufs.s2s.cold.cpl.r.2015-04-21-03600.nc .....Test 001 cpld_fv3_ccpp_mom6_cice_cmeps_cold_2015042100 FAIL
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-cice/RT-Baselines_cold_ccpp_cmeps_2016072100
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-cice/MEDIATOR_ccpp_cmeps_2016072100
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_cice/fcst_2016e/cpld_fv3_ccpp_mom6_cice_cmeps_cold_2016072100
+Checking test 001 cpld_fv3_ccpp_mom6_cice_cmeps_cold_2016072100 results ....
+ Comparing ufs.s2s.cold.cpl.r.2016-07-21-03600.nc ............MISSING baseline
+ Moving ufs.s2s.cold.cpl.r.2016-07-21-03600.nc .....Test 001 cpld_fv3_ccpp_mom6_cice_cmeps_cold_2016072100 FAIL
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-cice/RT-Baselines_cold_ccpp_cmeps_2016072500
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-cice/MEDIATOR_ccpp_cmeps_2016072500
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_cice/fcst_2016e/cpld_fv3_ccpp_mom6_cice_cmeps_cold_2016072500
+Checking test 001 cpld_fv3_ccpp_mom6_cice_cmeps_cold_2016072500 results ....
+ Comparing ufs.s2s.cold.cpl.r.2016-07-25-03600.nc ............MISSING baseline
+ Moving ufs.s2s.cold.cpl.r.2016-07-25-03600.nc .....Test 001 cpld_fv3_ccpp_mom6_cice_cmeps_cold_2016072500 FAIL
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-cice/RT-Baselines_cold_ccpp_cmeps_2020052200
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-cice/MEDIATOR_ccpp_cmeps_2020052200
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFScice/fcst_2020c/cpld_fv3_ccpp_mom6_cice_cmeps_cold_2020052200
+Checking test 001 cpld_fv3_ccpp_mom6_cice_cmeps_cold_2020052200 results ....
+ Comparing ufs.s2s.cold.cpl.r.2020-05-22-03600.nc ............MISSING file
+ Moving ufs.s2s.cold.cpl.r.2020-05-22-03600.nc .....Test 001 cpld_fv3_ccpp_mom6_cice_cmeps_cold_2020052200 FAIL
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_zbot/fcst_2015b/cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2015042100
+Checking test 002 cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2015042100 results ....
+Test 002 cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2015042100 PASS
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-cice/
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-cice/
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_cice/fcst_2016e/cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2016072100
+Checking test 002 cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2016072100 results ....
+Test 002 cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2016072100 PASS
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-cice/
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-cice/
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_cice/fcst_2016e/cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2016072500
+Checking test 002 cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2016072500 results ....
+Test 002 cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2016072500 PASS
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/RT-Baselines_cold_ccpp_cmeps_2015042400
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/MEDIATOR_ccpp_cmeps_2015042400
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_zbot/fcst_2015b/cpld_fv3_ccpp_mom6_cice_cmeps_cold_2015042400
+Checking test 002 cpld_fv3_ccpp_mom6_cice_cmeps_cold_2015042400 results ....
+ Comparing ufs.s2s.cold.cpl.r.2015-04-24-03600.nc ............MISSING baseline
+ Moving ufs.s2s.cold.cpl.r.2015-04-24-03600.nc .....Test 002 cpld_fv3_ccpp_mom6_cice_cmeps_cold_2015042400 FAIL
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/RT-Baselines_cold_ccpp_cmeps_2015042500
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/MEDIATOR_ccpp_cmeps_2015042500
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_zbot/fcst_2015b/cpld_fv3_ccpp_mom6_cice_cmeps_cold_2015042500
+Checking test 002 cpld_fv3_ccpp_mom6_cice_cmeps_cold_2015042500 results ....
+ Comparing ufs.s2s.cold.cpl.r.2015-04-25-03600.nc ............MISSING baseline
+ Moving ufs.s2s.cold.cpl.r.2015-04-25-03600.nc .....Test 002 cpld_fv3_ccpp_mom6_cice_cmeps_cold_2015042500 FAIL
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_zbot/fcst_2015b/cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2015042400
+Checking test 003 cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2015042400 results ....
+Test 003 cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2015042400 PASS
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_zbot/fcst_2015b/cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2015042500
+Checking test 003 cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2015042500 results ....
+Test 003 cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2015042500 PASS
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_zbot/fcst_2015b/cpld_fv3_ccpp_mom6_cice_cmeps_3moR1_2015042100
+Checking test 003 cpld_fv3_ccpp_mom6_cice_cmeps_3moR1_2015042100 results ....
+Test 003 cpld_fv3_ccpp_mom6_cice_cmeps_3moR1_2015042100 PASS
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-cice/
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-cice/
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_cice/fcst_2016e/cpld_fv3_ccpp_mom6_cice_cmeps_3moR1_2016072100
+Checking test 003 cpld_fv3_ccpp_mom6_cice_cmeps_3moR1_2016072100 results ....
+Test 003 cpld_fv3_ccpp_mom6_cice_cmeps_3moR1_2016072100 PASS
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_zbot/fcst_2015b/cpld_fv3_ccpp_mom6_cice_cmeps_3moR1_2015042400
+Checking test 004 cpld_fv3_ccpp_mom6_cice_cmeps_3moR1_2015042400 results ....
+Test 004 cpld_fv3_ccpp_mom6_cice_cmeps_3moR1_2015042400 PASS
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_zbot/fcst_2015b/cpld_fv3_ccpp_mom6_cice_cmeps_3moR1_2015042500
+Checking test 004 cpld_fv3_ccpp_mom6_cice_cmeps_3moR1_2015042500 results ....
+Test 004 cpld_fv3_ccpp_mom6_cice_cmeps_3moR1_2015042500 PASS
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_zbot/fcst_2015b/cpld_fv3_ccpp_mom6_cice_cmeps_3moR2_2015042100
+Checking test 004 cpld_fv3_ccpp_mom6_cice_cmeps_3moR2_2015042100 results ....
+Test 004 cpld_fv3_ccpp_mom6_cice_cmeps_3moR2_2015042100 PASS
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-cice/
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-cice/
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_cice/fcst_2016e/cpld_fv3_ccpp_mom6_cice_cmeps_3moR2_2016072100
+Checking test 004 cpld_fv3_ccpp_mom6_cice_cmeps_3moR2_2016072100 results ....
+Test 004 cpld_fv3_ccpp_mom6_cice_cmeps_3moR2_2016072100 PASS
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_zbot/fcst_2015b/cpld_fv3_ccpp_mom6_cice_cmeps_3moR2_2015042500
+Checking test 005 cpld_fv3_ccpp_mom6_cice_cmeps_3moR2_2015042500 results ....
+Test 005 cpld_fv3_ccpp_mom6_cice_cmeps_3moR2_2015042500 PASS
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/RT-Baselines_cold_ccpp_cmeps_2015042200
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/MEDIATOR_ccpp_cmeps_2015042200
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_zbot/fcst_2015b/cpld_fv3_ccpp_mom6_cice_cmeps_cold_2015042200
+Checking test 005 cpld_fv3_ccpp_mom6_cice_cmeps_cold_2015042200 results ....
+ Comparing ufs.s2s.cold.cpl.r.2015-04-22-03600.nc ............MISSING baseline
+ Moving ufs.s2s.cold.cpl.r.2015-04-22-03600.nc .....Test 005 cpld_fv3_ccpp_mom6_cice_cmeps_cold_2015042200 FAIL
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_zbot/fcst_2015b/cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2015042200
+Checking test 006 cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2015042200 results ....
+Test 006 cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2015042200 PASS
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_zbot/fcst_2015b/cpld_fv3_ccpp_mom6_cice_cmeps_3moR1_2015042200
+Checking test 007 cpld_fv3_ccpp_mom6_cice_cmeps_3moR1_2015042200 results ....
+Test 007 cpld_fv3_ccpp_mom6_cice_cmeps_3moR1_2015042200 PASS
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_zbot/fcst_2015b/cpld_fv3_ccpp_mom6_cice_cmeps_3moR2_2015042200
+Checking test 008 cpld_fv3_ccpp_mom6_cice_cmeps_3moR2_2015042200 results ....
+Test 008 cpld_fv3_ccpp_mom6_cice_cmeps_3moR2_2015042200 PASS
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/RT-Baselines_cold_ccpp_cmeps_2015042300
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/MEDIATOR_ccpp_cmeps_2015042300
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_zbot/fcst_2015b/cpld_fv3_ccpp_mom6_cice_cmeps_cold_2015042300
+Checking test 009 cpld_fv3_ccpp_mom6_cice_cmeps_cold_2015042300 results ....
+ Comparing ufs.s2s.cold.cpl.r.2015-04-23-03600.nc ............MISSING baseline
+ Moving ufs.s2s.cold.cpl.r.2015-04-23-03600.nc .....Test 009 cpld_fv3_ccpp_mom6_cice_cmeps_cold_2015042300 FAIL
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_zbot/fcst_2015b/cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2015042300
+Checking test 010 cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2015042300 results ....
+Test 010 cpld_fv3_ccpp_mom6_cice_cmeps_3mo_2015042300 PASS
+
+
+baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+mediator baseline dir = /lustre/f2/pdata/ncep/JieShun.Zhu/emc.nemspara/Hera_RT/FV3-MOM6-CICE5/develop-20200907-zbot/
+working dir  = /lustre/f2/scratch/JieShun.Zhu/UFS_zbot/fcst_2015b/cpld_fv3_ccpp_mom6_cice_cmeps_3moR1_2015042300
+Checking test 011 cpld_fv3_ccpp_mom6_cice_cmeps_3moR1_2015042300 results ....
+Test 011 cpld_fv3_ccpp_mom6_cice_cmeps_3moR1_2015042300 PASS
+
+FAILED TESTS: 
+Test cpld_fv3_ccpp_mom6_cice_cmeps_cold_2015042500 failed 
+
+REGRESSION TEST FAILED
+Sun Jul 18 21:38:36 EDT 2021
+Elapsed time: 10h:39m:25s. Have a nice day!

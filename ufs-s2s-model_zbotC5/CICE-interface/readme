@@ -1,0 +1,29 @@
+From Jong Kim (6/29/2021)
+idea is to increase max iteration numbers and tolerance on thermo solution steps
+
+./icepack/columnphysics/icepack_therm_shared.F90
+ferrmax = 1.0e-3_dbl_kind
+we can try ferrmax = 1.0e-2_dbl_kind
+If you use your own model build
+
+./icepack/columnphysics/icepack_therm_bl99.F90
+./icepack/columnphysics/icepack_therm_0layer.F90
+nitermax = 100 to 200
+nitermax = 50 to 100
+I think these options will give some idea
+more ideal option might be separate runs of ice da and ocean da
+as we don't have reallistic balance btw sst and ice
+
+From Jong Kim (6/30/2021)
+1)Q: The crash is because dvice is negative, but with extremely small negative values.
+A: you have to use kitd=0 in ice_in.
+it's a bug. cice6 people have to fix this issue. til then, we have to use kitd=0
+with kitd=0, we are not redistributing ice thickness in each category
+
+2)When it blows up with themo solver side. We will try to adress the issue with bigger tolerence.
+
+(I am thinking about setting single obs test on iceda to see if we can find evidence with balance issue).
+/work/noaa/ng-godas/marineda/ufs_config/SCRATCH/1deg/ice_in
+
+ktherm=1 means BL99; 2 means mushy 
+If trying to switch from BL99 to mushy, ktherm and tfrz_option need to be changed.

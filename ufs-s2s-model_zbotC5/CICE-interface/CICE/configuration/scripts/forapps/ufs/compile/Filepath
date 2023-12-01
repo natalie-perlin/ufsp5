@@ -1,0 +1,10 @@
+/lustre/f2/dev/ncep/JieShun.Zhu/ufsp5/ufs-s2s-model_zbotC5/CICE-interface/CICE/cicecore/drivers/nuopc/cmeps
+/lustre/f2/dev/ncep/JieShun.Zhu/ufsp5/ufs-s2s-model_zbotC5/CICE-interface/CICE/cicecore/cicedynB/dynamics
+/lustre/f2/dev/ncep/JieShun.Zhu/ufsp5/ufs-s2s-model_zbotC5/CICE-interface/CICE/cicecore/cicedynB/general
+/lustre/f2/dev/ncep/JieShun.Zhu/ufsp5/ufs-s2s-model_zbotC5/CICE-interface/CICE/cicecore/cicedynB/analysis
+/lustre/f2/dev/ncep/JieShun.Zhu/ufsp5/ufs-s2s-model_zbotC5/CICE-interface/CICE/cicecore/cicedynB/infrastructure
+/lustre/f2/dev/ncep/JieShun.Zhu/ufsp5/ufs-s2s-model_zbotC5/CICE-interface/CICE/cicecore/cicedynB/infrastructure/io/io_netcdf
+/lustre/f2/dev/ncep/JieShun.Zhu/ufsp5/ufs-s2s-model_zbotC5/CICE-interface/CICE/cicecore/cicedynB/infrastructure/comm/mpi
+/lustre/f2/dev/ncep/JieShun.Zhu/ufsp5/ufs-s2s-model_zbotC5/CICE-interface/CICE/cicecore/shared
+/lustre/f2/dev/ncep/JieShun.Zhu/ufsp5/ufs-s2s-model_zbotC5/CICE-interface/CICE/icepack/columnphysics
+/lustre/f2/dev/ncep/JieShun.Zhu/ufsp5/ufs-s2s-model_zbotC5/CICE-interface/CICE/csm_share
